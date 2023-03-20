@@ -2,47 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://egose.github.io/</loc>
-         <lastmod>2023-02-27</lastmod>
+         <lastmod>2023-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://egose.github.io/egose-acl/1.philosophy/</loc>
-         <lastmod>2023-02-27</lastmod>
+         <lastmod>2023-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://egose.github.io/egose-acl/2.quick-start/</loc>
-         <lastmod>2023-02-27</lastmod>
+         <lastmod>2023-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://egose.github.io/egose-acl/3.middleware/</loc>
-         <lastmod>2023-02-27</lastmod>
+         <lastmod>2023-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://egose.github.io/egose-acl/4.workflow-lifecycle/</loc>
-         <lastmod>2023-02-27</lastmod>
+         <lastmod>2023-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://egose.github.io/egose-acl/5.api-endpoints/</loc>
-         <lastmod>2023-02-27</lastmod>
+         <lastmod>2023-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://egose.github.io/egose-acl/6.options/</loc>
-         <lastmod>2023-02-27</lastmod>
+         <lastmod>2023-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://egose.github.io/egose-acl/7.usage/</loc>
-         <lastmod>2023-02-27</lastmod>
+         <lastmod>2023-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://egose.github.io/egose-deco/1.quick-start/</loc>
-         <lastmod>2023-02-27</lastmod>
+         <lastmod>2023-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
