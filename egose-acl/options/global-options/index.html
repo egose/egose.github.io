@@ -16,7 +16,7 @@
         <link rel="prev" href="../">
       
       
-        <link rel="next" href="../model-options/">
+        <link rel="next" href="../default-model-options/">
       
       <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.6">
@@ -256,6 +256,22 @@
   
 
       
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../egose-swagger/philosophy/" class="md-tabs__link">
+        Egose Swagger
+      </a>
+    </li>
+  
+
+      
     </ul>
   </div>
 </nav>
@@ -420,6 +436,8 @@
         
           
         
+          
+        
       
       
         
@@ -499,27 +517,6 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#idparam" class="md-nav__link">
-    idParam
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#querypath" class="md-nav__link">
-    queryPath
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#mutationpath" class="md-nav__link">
-    mutationPath
-  </a>
-  
-</li>
-        
       </ul>
     </nav>
   
@@ -540,8 +537,22 @@
   
   
     <li class="md-nav__item">
+      <a href="../default-model-options/" class="md-nav__link">
+        Default Model Router Options
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../model-options/" class="md-nav__link">
-        Model Options
+        Model Router Options
       </a>
     </li>
   
@@ -936,6 +947,75 @@
   
 
     
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          Egose Swagger
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Egose Swagger
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../egose-swagger/philosophy/" class="md-nav__link">
+        Philosophy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../egose-swagger/quick-start/" class="md-nav__link">
+        Quick Start
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -982,27 +1062,6 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#idparam" class="md-nav__link">
-    idParam
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#querypath" class="md-nav__link">
-    queryPath
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#mutationpath" class="md-nav__link">
-    mutationPath
-  </a>
-  
-</li>
-        
       </ul>
     </nav>
   
@@ -1029,7 +1088,7 @@
   <h1>Global Options</h1>
 
 <h2 id="global-options-for-library-and-model-routers">Global Options for Library and Model Routers<a class="headerlink" href="#global-options-for-library-and-model-routers" title="Permanent link">&para;</a></h2>
-<p>Global options define the library-level or default options for model routers.</p>
+<p>Global options refer to the options that are set at the library-level.</p>
 <h3 id="globalpermissions">globalPermissions<a class="headerlink" href="#globalpermissions" title="Permanent link">&para;</a></h3>
 <p>Global permissions are based on the requester's authentication/authorization context and determine the requester's access level for each request. Here's an example usage:</p>
 <div class="language-ts highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">import</span><span class="w"> </span><span class="nx">egose</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s1">&#39;@egose/acl&#39;</span><span class="p">;</span>
@@ -1052,24 +1111,6 @@
 <div class="language-ts highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="k">import</span><span class="w"> </span><span class="nx">egose</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s1">&#39;@egose/acl&#39;</span><span class="p">;</span>
 </span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>
 </span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="nx">egose</span><span class="p">.</span><span class="nx">set</span><span class="p">(</span><span class="s1">&#39;permissionField&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;__access&#39;</span><span class="p">);</span>
-</span></code></pre></div>
-<h3 id="idparam">idParam<a class="headerlink" href="#idparam" title="Permanent link">&para;</a></h3>
-<p>This option specifies the default name of the <code>Route parameter</code> that is used to capture the document ID. It is used if the model option <code>idParam</code> is omitted. By default, it is set to <code>id</code>.</p>
-<div class="language-ts highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="k">import</span><span class="w"> </span><span class="nx">egose</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s1">&#39;@egose/acl&#39;</span><span class="p">;</span>
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>
-</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="nx">egose</span><span class="p">.</span><span class="nx">set</span><span class="p">(</span><span class="s1">&#39;idParam&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;identifier&#39;</span><span class="p">);</span>
-</span></code></pre></div>
-<h3 id="querypath">queryPath<a class="headerlink" href="#querypath" title="Permanent link">&para;</a></h3>
-<p>This option specifies the default path name (suffix) for <code>Advanced View Routes</code>. It is used if the model option <code>queryPath</code> is not specified. By default, it is set to <code>__query</code>.</p>
-<div class="language-ts highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="k">import</span><span class="w"> </span><span class="nx">egose</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s1">&#39;@egose/acl&#39;</span><span class="p">;</span>
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>
-</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="nx">egose</span><span class="p">.</span><span class="nx">set</span><span class="p">(</span><span class="s1">&#39;queryPath&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;__q__&#39;</span><span class="p">);</span>
-</span></code></pre></div>
-<h3 id="mutationpath">mutationPath<a class="headerlink" href="#mutationpath" title="Permanent link">&para;</a></h3>
-<p>This option specifies the default path name (suffix) for <code>Advanced Write Routes</code>. It is used if the model option <code>mutationPath</code> is not specified. By default, it is set to <code>__mutation</code>.</p>
-<div class="language-ts highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="k">import</span><span class="w"> </span><span class="nx">egose</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s1">&#39;@egose/acl&#39;</span><span class="p">;</span>
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>
-</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="nx">egose</span><span class="p">.</span><span class="nx">set</span><span class="p">(</span><span class="s1">&#39;mutationPath&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;__m__&#39;</span><span class="p">);</span>
 </span></code></pre></div>
 
 

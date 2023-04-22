@@ -256,6 +256,22 @@
   
 
       
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../egose-swagger/philosophy/" class="md-tabs__link">
+        Egose Swagger
+      </a>
+    </li>
+  
+
+      
     </ul>
   </div>
 </nav>
@@ -418,6 +434,8 @@
         
           
         
+          
+        
       
       
         
@@ -460,8 +478,22 @@
   
   
     <li class="md-nav__item">
+      <a href="../../options/default-model-options/" class="md-nav__link">
+        Default Model Router Options
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../options/model-options/" class="md-nav__link">
-        Model Options
+        Model Router Options
       </a>
     </li>
   
@@ -982,6 +1014,75 @@
   
 
     
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          Egose Swagger
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Egose Swagger
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../egose-swagger/philosophy/" class="md-nav__link">
+        Philosophy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../egose-swagger/quick-start/" class="md-nav__link">
+        Quick Start
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -1267,10 +1368,17 @@
 <td></td>
 </tr>
 <tr>
+<td><code>skip</code></td>
+<td>number</td>
+<td>body</td>
+<td>The number of documents to skip; used over <code>page</code> if specified</td>
+<td></td>
+</tr>
+<tr>
 <td><code>limit</code></td>
 <td>number</td>
 <td>body</td>
-<td>The maximum number of documents</td>
+<td>The maximum number of documents; used over <code>pageSize</code> if specified</td>
 <td>1000 (max)</td>
 </tr>
 <tr>
@@ -1278,6 +1386,13 @@
 <td>number</td>
 <td>body</td>
 <td>The page number of documents; starts from 1</td>
+<td>1</td>
+</tr>
+<tr>
+<td><code>pageSize</code></td>
+<td>number</td>
+<td>body</td>
+<td>The maximum number of documents</td>
 <td>1</td>
 </tr>
 <tr>
