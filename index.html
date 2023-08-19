@@ -74,6 +74,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#egose" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -338,10 +343,71 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Home
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="." class="md-nav__link md-nav__link--active">
         Home
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#egose-acl" class="md-nav__link">
+    Egose ACL
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#egose-deco" class="md-nav__link">
+    Egose Deco
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#egose-swagger" class="md-nav__link">
+    Egose Swagger
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#egose-adapter-in-javascript" class="md-nav__link">
+    Egose Adapter in Javascript
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    References
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1052,6 +1118,51 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#egose-acl" class="md-nav__link">
+    Egose ACL
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#egose-deco" class="md-nav__link">
+    Egose Deco
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#egose-swagger" class="md-nav__link">
+    Egose Swagger
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#egose-adapter-in-javascript" class="md-nav__link">
+    Egose Adapter in Javascript
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    References
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1069,9 +1180,44 @@
   
 
 
-  <h1>Home</h1>
-
-
+<h1 id="egose">Egose<a class="headerlink" href="#egose" title="Permanent link">&para;</a></h1>
+<p><code>Egose</code> is a collection of toolkits that exposes REST API endpoints corresponding to mongoose data models in Express routes.</p>
+<h2 id="egose-acl">Egose ACL<a class="headerlink" href="#egose-acl" title="Permanent link">&para;</a></h2>
+<p><code>@egose/acl</code> is a package that provides REST API endpoints for <a href="https://mongoosejs.com/"><code>mongoose</code></a> data models in <a href="https://expressjs.com/"><code>Express</code></a> routes. It helps to secure the backend database by decorating mongoose queries with access control lists (ACLs), which are used to restrict access to sensitive data. The package also supports dynamic frontend mongoose-like query options, which allows developers to easily manipulate and query data from the frontend using familiar syntax. By using <code>@egose/acl</code>, developers can streamline their development process and reduce the risk of security breaches caused by unauthorized database access.</p>
+<p><a href="https://www.npmjs.com/package/@egose/acl" target="_blank"><img src="https://img.shields.io/npm/v/@egose/acl.svg" alt="NPM Version" /></a>
+<a href="https://www.npmjs.com/package/@egose/acl" target="_blank"><img src="https://img.shields.io/npm/l/@egose/acl.svg" alt="Package License" /></a>
+<a href="https://www.npmjs.com/package/@egose/acl" target="_blank"><img src="https://img.shields.io/npm/dm/@egose/acl.svg" alt="NPM Downloads" /></a></p>
+<ul>
+<li>see more details on <a href="https://egose.github.io/egose-acl/philosophy/">Egose ACL</a>.</li>
+</ul>
+<h2 id="egose-deco">Egose Deco<a class="headerlink" href="#egose-deco" title="Permanent link">&para;</a></h2>
+<p>The <code>@egose/deco</code> package offers <a href="https://www.typescriptlang.org/docs/handbook/decorators.html"><code>TypeScript Decorators</code></a> that allow developers to define <a href="https://egose.github.io/egose-acl/philosophy/"><code>@egose/acl</code></a> configurations and options through class and method <code>annotations</code>. By leveraging these decorators, developers can significantly enhance the readability and maintainability of their backend codebase. Overall, @egose/deco provides a powerful way to streamline authorization logic and improve code organization.</p>
+<p><a href="https://www.npmjs.com/package/@egose/deco" target="_blank"><img src="https://img.shields.io/npm/v/@egose/deco.svg" alt="NPM Version" /></a>
+<a href="https://www.npmjs.com/package/@egose/deco" target="_blank"><img src="https://img.shields.io/npm/l/@egose/deco.svg" alt="Package License" /></a>
+<a href="https://www.npmjs.com/package/@egose/deco" target="_blank"><img src="https://img.shields.io/npm/dm/@egose/deco.svg" alt="NPM Downloads" /></a></p>
+<ul>
+<li>see more details on <a href="https://egose.github.io/egose-deco/philosophy/">Egose Deco</a>.</li>
+</ul>
+<h2 id="egose-swagger">Egose Swagger<a class="headerlink" href="#egose-swagger" title="Permanent link">&para;</a></h2>
+<p>The <code>@egose/swagger</code> package provides support for the OpenAPI Specification (formerly known as Swagger Specification), which is a format used for describing REST APIs. It can be used to describe all the API endpoints that are generated by the <a href="https://egose.github.io/egose-acl/philosophy/"><code>@egose/acl</code></a> model routers.</p>
+<p><a href="https://www.npmjs.com/package/@egose/swagger" target="_blank"><img src="https://img.shields.io/npm/v/@egose/swagger.svg" alt="NPM Version" /></a>
+<a href="https://www.npmjs.com/package/@egose/swagger" target="_blank"><img src="https://img.shields.io/npm/l/@egose/swagger.svg" alt="Package License" /></a>
+<a href="https://www.npmjs.com/package/@egose/swagger" target="_blank"><img src="https://img.shields.io/npm/dm/@egose/swagger.svg" alt="NPM Downloads" /></a></p>
+<ul>
+<li>see more details on <a href="https://egose.github.io/egose-swagger/philosophy/">Egose Swagger</a>.</li>
+</ul>
+<h2 id="egose-adapter-in-javascript">Egose Adapter in Javascript<a class="headerlink" href="#egose-adapter-in-javascript" title="Permanent link">&para;</a></h2>
+<p>The <code>@egose/adapter-js</code> package provides a Typescript/Javascript client adapter that facilitates communication with the Egose backend API endpoints. For a better understanding of these endpoints, you can check out <a href="https://egose.github.io/egose-acl/philosophy/">Egose ACL</a>.</p>
+<p><a href="https://www.npmjs.com/package/@egose/adapter-js" target="_blank"><img src="https://img.shields.io/npm/v/@egose/adapter-js.svg" alt="NPM Version" /></a>
+<a href="https://www.npmjs.com/package/@egose/adapter-js" target="_blank"><img src="https://img.shields.io/npm/l/@egose/adapter-js.svg" alt="Package License" /></a>
+<a href="https://www.npmjs.com/package/@egose/adapter-js" target="_blank"><img src="https://img.shields.io/npm/dm/@egose/adapter-js.svg" alt="NPM Downloads" /></a></p>
+<ul>
+<li>see more details on <a href="https://egose.github.io/egose-adapter-js/philosophy/">Egose Adapter in Javascript</a>.</li>
+</ul>
+<h2 id="references">References<a class="headerlink" href="#references" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://www.rfc-editor.org/rfc/rfc9110.html">HTTP Semantics</a></li>
+</ul>
 
 
 
