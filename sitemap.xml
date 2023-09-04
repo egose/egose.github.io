@@ -2,142 +2,142 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://egose.github.io/</loc>
-         <lastmod>2023-09-03</lastmod>
+         <lastmod>2023-09-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://egose.github.io/egose-acl/philosophy/</loc>
-         <lastmod>2023-09-03</lastmod>
+         <lastmod>2023-09-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://egose.github.io/egose-acl/quick-start/</loc>
-         <lastmod>2023-09-03</lastmod>
+         <lastmod>2023-09-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://egose.github.io/egose-acl/api-endpoints/</loc>
-         <lastmod>2023-09-03</lastmod>
+         <lastmod>2023-09-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://egose.github.io/egose-acl/api-endpoints/count/</loc>
-         <lastmod>2023-09-03</lastmod>
+         <lastmod>2023-09-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://egose.github.io/egose-acl/api-endpoints/create/</loc>
-         <lastmod>2023-09-03</lastmod>
+         <lastmod>2023-09-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://egose.github.io/egose-acl/api-endpoints/delete/</loc>
-         <lastmod>2023-09-03</lastmod>
+         <lastmod>2023-09-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://egose.github.io/egose-acl/api-endpoints/distinct/</loc>
-         <lastmod>2023-09-03</lastmod>
+         <lastmod>2023-09-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://egose.github.io/egose-acl/api-endpoints/list/</loc>
-         <lastmod>2023-09-03</lastmod>
+         <lastmod>2023-09-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://egose.github.io/egose-acl/api-endpoints/new/</loc>
-         <lastmod>2023-09-03</lastmod>
+         <lastmod>2023-09-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://egose.github.io/egose-acl/api-endpoints/read/</loc>
-         <lastmod>2023-09-03</lastmod>
+         <lastmod>2023-09-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://egose.github.io/egose-acl/api-endpoints/update/</loc>
-         <lastmod>2023-09-03</lastmod>
+         <lastmod>2023-09-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://egose.github.io/egose-acl/crud-lifecycle/</loc>
-         <lastmod>2023-09-03</lastmod>
+         <lastmod>2023-09-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://egose.github.io/egose-acl/crud-lifecycle/create/</loc>
-         <lastmod>2023-09-03</lastmod>
+         <lastmod>2023-09-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://egose.github.io/egose-acl/crud-lifecycle/list/</loc>
-         <lastmod>2023-09-03</lastmod>
+         <lastmod>2023-09-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://egose.github.io/egose-acl/crud-lifecycle/read/</loc>
-         <lastmod>2023-09-03</lastmod>
+         <lastmod>2023-09-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://egose.github.io/egose-acl/crud-lifecycle/update/</loc>
-         <lastmod>2023-09-03</lastmod>
+         <lastmod>2023-09-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://egose.github.io/egose-acl/options/</loc>
-         <lastmod>2023-09-03</lastmod>
+         <lastmod>2023-09-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://egose.github.io/egose-acl/options/default-model-options/</loc>
-         <lastmod>2023-09-03</lastmod>
+         <lastmod>2023-09-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://egose.github.io/egose-acl/options/global-options/</loc>
-         <lastmod>2023-09-03</lastmod>
+         <lastmod>2023-09-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://egose.github.io/egose-acl/options/model-middleware/</loc>
-         <lastmod>2023-09-03</lastmod>
+         <lastmod>2023-09-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://egose.github.io/egose-acl/options/model-options/</loc>
-         <lastmod>2023-09-03</lastmod>
+         <lastmod>2023-09-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://egose.github.io/egose-adapter-js/philosophy/</loc>
-         <lastmod>2023-09-03</lastmod>
+         <lastmod>2023-09-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://egose.github.io/egose-adapter-js/quick-start/</loc>
-         <lastmod>2023-09-03</lastmod>
+         <lastmod>2023-09-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://egose.github.io/egose-deco/philosophy/</loc>
-         <lastmod>2023-09-03</lastmod>
+         <lastmod>2023-09-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://egose.github.io/egose-deco/quick-start/</loc>
-         <lastmod>2023-09-03</lastmod>
+         <lastmod>2023-09-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://egose.github.io/egose-swagger/philosophy/</loc>
-         <lastmod>2023-09-03</lastmod>
+         <lastmod>2023-09-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://egose.github.io/egose-swagger/quick-start/</loc>
-         <lastmod>2023-09-03</lastmod>
+         <lastmod>2023-09-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
